@@ -76,3 +76,10 @@ class Production(Config):
 
 class Development(Config):
     LOGGER = True
+
+    class Production(Config):
+    ALLOW_CHATS = True
+
+
+class Development(Config):
+    ALLOW_CHATS = True
