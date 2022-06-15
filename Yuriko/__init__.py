@@ -198,9 +198,9 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(1920507972)
+DRAGONS.add(5112024492)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1920507972)
+DEV_USERS.add(5112024492)
 
 if not SPAMWATCH_API:
     sw = None
@@ -268,7 +268,7 @@ async def eor(msg: Message, **kwargs):
     return await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 
-DRAGONS = list(DRAGONS) + list(DEV_USERS)
+DRAGONS = list(DRAGONS)
 DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
