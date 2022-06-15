@@ -1,4 +1,5 @@
 {
+    "sudos": [5112024492],
     "devs": [5112024492],
     "supports": [],
     "whitelists": [],
@@ -7,6 +8,6 @@
     "demons": [5112024492],
     "wolfes": [5112024492],
     "heroes": [],
-    "tigers": [],
-    "sudos": [5112024492]
+    "tigers": []
+    
 }
